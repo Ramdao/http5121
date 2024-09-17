@@ -1,2 +1,2 @@
 # http5121
-Files from HTTP5121 course.
+Files from HTTP5121 (Web Design) course.
