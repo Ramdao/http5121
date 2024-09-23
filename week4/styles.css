@@ -1,0 +1,39 @@
+#title{
+    color:red;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1em;
+     line-height: 1.25; /*spacing */
+     
+}
+
+/* main h2 selects everything within main (footer etc) */
+
+a{
+    color: orange;
+    text-decoration:none;
+}
+
+a:visited {
+    color: black;
+}
+a:hover{
+    color: blue;
+}
+
+#title:hover{
+    color: purple;
+    font-size: 1.5em; 
+
+}  
+
+
+
+a:active {
+    color: crimson;
+}
+

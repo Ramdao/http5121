@@ -1,0 +1,81 @@
+body{
+    font-size: 1.5em;
+    background-color: rgb(62, 59, 59);
+    font-family:Arial, Helvetica, sans-serif;
+    color: azure;
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(249, 4, 4);
+}
+h2{
+    color: cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#footer h2{
+    font-style: italic;
+    color: orange;
+}
+
+button{
+    font-size: large;
+    border-radius: 10px;
+}
+#email {
+    font-size: large;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: red;
+}
+#email:hover{
+    background-color: aquamarine;
+}
+a{
+    color: orange;
+    
+}
+li:first-child{
+    text-shadow: 3px 1px rgb(76, 0, 255);
+}
+li:last-child{
+    
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    box-shadow: 3px 5px rgb(133, 102, 24) ;
+    color:orange
+}
+
+
+a:hover{
+    color:rgb(211, 106, 103);
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: antiquewhite;
+}
+code{
+    color: chocolate;
+    font-weight: bold;
+}
+
+aside p{
+    color: greenyellow;
+}
+
+#author h2{
+    color: royalblue;
+}
+
+#comments p{
+    color: red;
+}
+
+form{
+    padding: 20px 20px;
+    background-color: rgb(41, 38, 38);
+}
