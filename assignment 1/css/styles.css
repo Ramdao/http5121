@@ -19,9 +19,9 @@ h1{
 }
 
 .heading-content p{
-    margin-left: 23em;
+    margin-left: 40em;
     font-size: 1.5em;
-    color:white;
+    color:greenyellow;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 30px;
     
@@ -68,12 +68,22 @@ a:hover {
 }
 
 .container{
+    
     border-style: solid;
     margin: 20px;
     background-color: rgb(57, 55, 55);
     border-radius: 10px;
     height: 100em;
     width: 100em;
+}
+
+.container p{
+    font-size: 20px;
+    color:white;
+    white-space: pre-wrap;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 
 .form-style{
@@ -153,6 +163,7 @@ textarea:hover{
 }
 
 .comments{
+    font-size: 20px;
     display: flex;
     border-style: solid;
     flex-direction: column;
@@ -165,10 +176,11 @@ textarea:hover{
 }
 
 footer{
+    font-size: 20px;
     display: flex;
     align-items: center;
     flex-direction: column;
-    width: 75em;
+    width: 100%;
     background-color: black;
     color: white;
 }
