@@ -1,0 +1,309 @@
+/* setting font family to Audiowide */
+body{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+/* setting grid layout */
+main{
+    display: grid;
+    grid-template-columns: 1fr 4.5fr 1fr;
+    grid-template-rows: auto auto ;
+    grid-template-areas: 
+                         "aside card form"
+                         "footer footer footer"
+                         
+
+}
+
+
+/* Design for link */
+a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Design for banner */
+.banner {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    border-style: solid;
+    border-color: #54BFFA;
+    border-width: 1px;
+    background-image: linear-gradient(to right,rgb(255, 255, 255,0.2),rgb(255, 255, 255,0.1));
+    box-shadow: 0px, 4px, 24px, -1px rgb(0,0,0,0.25);
+    backdrop-filter: blur(20px);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+/* Design for aside */
+/* /16 for em*/
+#aside{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 257px;
+    height: 98%;
+    border-style: solid;
+    border-color: #54BFFA;
+    border-width: 1px;
+    margin-top: 18px;
+    margin-left: 14px;
+    margin-bottom: 29px;
+    margin-right: 17px;
+    background-image: linear-gradient(to bottom,rgb(84, 191, 250,0.1),rgb(84, 191, 250,0.2));
+    box-shadow: 0px, 4px, 24px, -1px rgb(0,0,0,0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    
+}
+
+/* Design for form */
+
+.form-style{
+    display: flex;
+    align-items: center;
+    float: right;
+    border-style: solid;
+    border-color: #54BFFA;
+    border-width: 1px;
+    width: 257px;
+    height: 98%;
+    flex-direction: column;
+    margin-top: 18px;
+    margin-bottom: 29px;
+    margin-left: 17px;
+    margin-right: 14px;
+    background-image: linear-gradient(to bottom,rgb(84, 191, 250,0.1),rgb(84, 191, 250,0.2));
+    box-shadow: 0px, 4px, 24px, -1px rgb(0,0,0,0.25);
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+    
+   
+}
+/* design for information about me container */
+.about-me-style{
+    margin-top: 90px;
+}
+
+/* design for information about me */
+.card-style{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    font-size: 24px;
+    color: white;
+    border-style: solid;
+    border-color: #54BFFA;
+    border-width: 1px;
+    background-image: linear-gradient(to right,rgb(255, 255, 255,0.2),rgb(255, 255, 255,0.1));
+    box-shadow: 0px, 4px, 24px, -1px rgb(0,0,0,0.25);
+    backdrop-filter: blur(20px);
+    
+}
+/* design for footer*/
+.footer-style{
+    margin-top: 20px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: footer;
+    width: 100%;
+    height: 8vw;
+    border-style: solid;
+    border-color: #54BFFA;
+    border-width: 1px;
+    background-image: linear-gradient(to right,rgb(0, 0, 0,0.2),rgb(0, 0, 0,0.1));
+    box-shadow: 0px, 4px, 24px, -1px rgb(0,0,0,0.25);
+    backdrop-filter: blur(20px);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/*grid layout*/
+#aside {
+    grid-area: aside;
+}
+
+.footer-style{
+    grid-area: footer;
+}
+
+.form-style{
+    grid-area: form;
+    justify-self: end;
+}
+
+.card-style{
+    grid-area: card;
+    margin-top: 20px;
+}
+/*header style */
+
+.haader-style{
+    color: white;
+    text-wrap: nowrap;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+.logo {
+    margin-left: 20px;
+}
+
+/* styling for navigation */
+
+.top-nav{
+    display: flex;
+    position:absolute;
+    justify-content: space-between;
+    width: 500px;
+    text-wrap: nowrap;
+    color: white;
+    font-size: 36px;
+    margin-left: 70%;
+    
+}
+/* aside styling */
+.aside-title{
+    margin-top: 30px;
+    color: white;
+    font-size: 32;
+}
+
+.aside-links{
+    margin-top: 80px;
+    font-size: 24px;
+}
+
+/* form styling */
+
+.form-style h2{
+    color: white;
+    font-size: 32px;
+    
+}
+
+.form-style label{
+    font-size: 24px;
+    color: white;
+    margin-top: 100px;
+    margin-bottom: 20px;
+}
+
+.form-style input{
+    background-color: #d9d9d9;
+    height: 30px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.textarea{
+    margin-top:5px;
+    background-color: #d9d9d9;
+    border-radius: 10px;
+}
+
+.Submit_style{
+    font-family: "Audiowide", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 24px;
+    margin-top: 50px;
+    height: 46px;
+    width: 80%;
+}
+/* page title */
+.page-title{
+    left: 35%;
+    font-size: 24px;
+    color: white; 
+    position: absolute;
+}
+
+/*img adjusting */
+
+.Htmlimg{
+    position: absolute;
+    top:25%;
+    left: 5%;
+    height: 100px;
+    width: 92px;
+}
+
+.Cssimg{
+    position: absolute;
+    top:25%;
+    left: 15%;
+    height: 100px;
+    width: 110px;
+}
+
+.Markdownimg{
+    position: absolute;
+    top:25%;
+    left: 26%;
+    height: 100px;
+    width: 130px;
+}
+
+.Javaimg{
+    position: absolute;
+    top:25%;
+    left: 5%;
+    height: 100px;
+    width: 100px;
+}
+
+.Cimg{
+    position: absolute;
+    top:13%;
+    left: 13%;
+    height: 150px;
+    width: 170px;
+}
+
+.Pythonimg{
+    position: absolute;
+    top:25%;
+    left: 25%;
+    height: 100px;
+    width: 120px;
+}
+
+
+.Netimg{
+    position: absolute;
+    top:25%;
+    left: 5%;
+    height: 120px;
+    width: 120px;
+}
+.Nodeimg{
+    position: absolute;
+    top:25%;
+    left: 15%;
+    height: 120px;
+    width: 170px;
+}
+
+.Sqlimg{
+    position: absolute;
+    top:25%;
+    left: 28%;
+    height: 120px;
+    width: 180px;
+    margin-right: 40%;
+}
+
+/* text adjustinng */
+.info{
+    position: absolute;
+    top:15%;
+    margin-right: 5%;
+}
+
