@@ -65,6 +65,7 @@ function start(){
 
     }
     
+  
    
 }
 
@@ -114,3 +115,7 @@ function gridin(event){
 function gridout(event){
     event.target.style.backgroundColor = "rgba(127, 225, 212, 0.1)";
 }
+
+
+
+//window.onresize = function(){ location.reload(); }
