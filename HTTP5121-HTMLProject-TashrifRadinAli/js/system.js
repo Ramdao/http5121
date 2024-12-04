@@ -1,12 +1,13 @@
 window.onload=start
 
 function start(){
+    // Goes back to main page
     document.getElementById("btn").onclick=function(){
         window.location="index.html"
         
     }
 }
-
+// To show information about a planet when hover mouseover
 function planet1info(event){
     document.getElementById("planetinfo").innerHTML= "Planet type: Rocky";
 }

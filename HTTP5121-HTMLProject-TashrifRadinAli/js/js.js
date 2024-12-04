@@ -1,14 +1,17 @@
 window.onload = start;
 
 function start(){
+    // Goes to Rigel
     document.getElementById("star1").onclick=function(){
         window.location="star1.html"
         
     }
+    // Goes to Polaris
     document.getElementById("star2").onclick=function(){
         window.location="star2.html"
         
     }
+    // Goes to Antares
     document.getElementById("star3").onclick=function(){
         window.location="star3.html"
         
@@ -19,7 +22,7 @@ function start(){
     var flag = true;
     
 
-
+// For background stars
     for (var i =1000; i>0; i--){
         var x = Math.floor(Math.random()*(window.innerWidth)/2);
         var y = Math.floor(Math.random()*(window.innerHeight));
@@ -42,6 +45,7 @@ function start(){
         starContainer.appendChild(star);
     }
    
+    // To create grid vertical
     for (var i = 9; i>0; i--){
 
         var line = document.createElement("div");
@@ -52,6 +56,8 @@ function start(){
         starContainer.appendChild(line);
 
     }
+
+    // To create grid horizontal
     var line_no = 90
     for (var i = 19; i>0; i--){
 
@@ -76,7 +82,7 @@ function star1info(){
 
 function star1infoout(){
     
-    document.getElementById("starinfo").innerHTML= "";
+    document.getElementById("starinfo").innerHTML= "Click on a star!";
 }
 
 function star2info(){
@@ -86,7 +92,7 @@ function star2info(){
 
 function star2infoout(){
     
-    document.getElementById("starinfo").innerHTML= "";
+    document.getElementById("starinfo").innerHTML= "Click on a star!";
 }
 
 function star3info(){
@@ -96,7 +102,7 @@ function star3info(){
 
 function star3infoout(){
     
-    document.getElementById("starinfo").innerHTML= "";
+    document.getElementById("starinfo").innerHTML= "Click on a star!";
 }
 
 function star4info(){
@@ -106,7 +112,7 @@ function star4info(){
 
 function star4infoout(){
     
-    document.getElementById("starinfo").innerHTML= "";
+    document.getElementById("starinfo").innerHTML= "Click on a star!";
 }
 
 function gridin(event){
